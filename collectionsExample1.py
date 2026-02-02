@@ -1,10 +1,8 @@
 
 """
-Collections:
+Collections (iterable objects):
     list tuple set dict str array ....
     
-Sequences (a specific kind of collection):
-    list tuple str array
 """
 
 # length of a collection: len()
@@ -30,6 +28,10 @@ for element in name:
     
 for element in data:
     print(element)
+    
+# sum() : to sum a collection of numbers
+# max(), min(): to determine the max and the min of a colelction of numbers
+# ...
 
     
     
