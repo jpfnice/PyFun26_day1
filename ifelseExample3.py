@@ -17,7 +17,7 @@ value = int(value)
 
 if value > 0:
     print(value, "is positive")
-    result=value*3
+    result=value * 3
 elif value < 0:
     print(value, "is negative")
     result=value / 3
