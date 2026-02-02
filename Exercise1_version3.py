@@ -7,13 +7,10 @@ You can use the modulo operator (%) to determine if a number is even or not:
 After having tested a first number, the script should prompt the user for other numbers, and continue to run as long as the user does not enter the string "stop".
 """
 
-while True:
-    
-    response=input("Please enter a numeric value or 'stop': ")
-    
-    if response == 'stop':
-        break
-    
+response=input("Please enter a numeric value : ")
+
+while response != 'stop':
+
     nb=int(response)  # to convert the provided string into an int
     
     if nb == 0:
@@ -22,3 +19,5 @@ while True:
         print(nb, "is even")
     else:
         print(nb, "is odd")
+    
+    response=input("Please enter a numeric value or 'stop': ")
