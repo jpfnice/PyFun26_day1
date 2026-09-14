@@ -1,6 +1,6 @@
 
 """
-list (a muttable kind of sequence)
+list (a mutable kind of sequence)
     
     
 """
