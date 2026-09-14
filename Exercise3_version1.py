@@ -19,10 +19,10 @@ print(secret) # For testing purpose only ...
 attempts=1 
 
 while attempts <= 6: # The maximum number of attempts is 6!
-    # value=input("Enter an int between [1,100]: ")
-    # value=int(value)
-    value=int(input(f"Enter an int between [1,100] ({attempts}/6): "))
-
+    
+    value=input("Enter an int between [1,100]: ")
+    value=int(value)
+    
     if value < secret:
         print(value, "is too small!")
     elif value > secret:
@@ -31,8 +31,7 @@ while attempts <= 6: # The maximum number of attempts is 6!
         print("Bingo !", value, "was the secret number!")
         break # The secret number is found, I can leave the loop
     
-    #attempts = attempts + 1 # to increment the number of attempts
-    attempts += 1 
+    attempts = attempts + 1 # to increment the number of attempts
     
 # I may leave the loop because the number has been found or 
 # because I've reached the maximum number of attempts.
