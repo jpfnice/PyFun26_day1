@@ -1,8 +1,9 @@
 # The "basic" type int
 
 nb=123 # an int represent in base 10 (decimal representation)
+print(nb,type(nb))
 
-nb=0b10111001 # an int represented is base 2
+nb=0b1001 # an int represented is base 2 (binary)
 print(nb)
 
 nb=0o4321 # an int represented in base 8 (octal)
